@@ -8,11 +8,14 @@ public class BulletController : MonoBehaviour
     private Transform bulletTrans;
     private Transform playerTrans;
     private GameObject playerObj;
+    private GameObject crowdManager;
+    public float range=20;
     // Start is called before the first frame update
     void Start()
     {
         bulletTrans = GetComponent<Transform>();
         playerObj = GameObject.FindWithTag("Cyborg");
+        crowdManager = GameObject.FindWithTag("crowdManager");
         playerTrans = playerObj.GetComponent<Transform>();
     }
 
@@ -26,7 +29,7 @@ public class BulletController : MonoBehaviour
     void destroyBack()
     {
         //Debug.Log(enemy.transform.position.z);
-        if (bulletTrans.position.z > playerTrans.position.z + 20)
+        if (bulletTrans!=null && playerTrans != null && bulletTrans.position.z > playerTrans.position.z + range)
         {
             Destroy(gameObject); 
 
@@ -37,10 +40,15 @@ public class BulletController : MonoBehaviour
     {
         if (collision.gameObject.tag == "crowd")
         {
+            crowdManager.GetComponent<CrowdManager>().enemyNumber--;
             Destroy(gameObject);
             Destroy(collision.gameObject);
             Debug.Log("destroyed");
         }
-        
+        if (collision.gameObject.tag == "end")
+        {
+            Destroy(gameObject);
+           
+        }
     }
 }

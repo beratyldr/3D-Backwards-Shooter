@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "x4ojnrrk5xeqcmfu",
     "m_SelectedPackage": {
-        "deviceId": "x4ojnrrk5xeqcmfu",
-        "name": "com.BeratYldr.Shooter",
-        "processId": 30518,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -16,45 +16,33 @@
         },
         {
             "deviceId": "x4ojnrrk5xeqcmfu",
-            "name": "com.Beratyldr.shoot",
-            "processId": 12328,
+            "name": "com.BeratYldr.Shooter",
+            "processId": 8385,
             "exited": true
-        },
-        {
-            "deviceId": "x4ojnrrk5xeqcmfu",
-            "name": "com.Beratyldr.shoot",
-            "processId": 12587,
-            "exited": true
-        },
-        {
-            "deviceId": "x4ojnrrk5xeqcmfu",
-            "name": "com.Beratyldr.shoot",
-            "processId": 16780,
-            "exited": true
-        },
-        {
-            "deviceId": "x4ojnrrk5xeqcmfu",
-            "name": "com.Beratyldr.shoot",
-            "processId": 17162,
-            "exited": true
-        },
-        {
-            "deviceId": "x4ojnrrk5xeqcmfu",
-            "name": "com.Beratyldr.shoot",
-            "processId": 17915,
-            "exited": true
-        },
-        {
-            "deviceId": "x4ojnrrk5xeqcmfu",
-            "name": "com.Beratyldr.shoot",
-            "processId": 18426,
-            "exited": false
         },
         {
             "deviceId": "x4ojnrrk5xeqcmfu",
             "name": "com.BeratYldr.Shooter",
-            "processId": 30518,
-            "exited": false
+            "processId": 8475,
+            "exited": true
+        },
+        {
+            "deviceId": "x4ojnrrk5xeqcmfu",
+            "name": "com.BeratYldr.Shooter",
+            "processId": 10923,
+            "exited": true
+        },
+        {
+            "deviceId": "x4ojnrrk5xeqcmfu",
+            "name": "com.BeratYldr.Shooter",
+            "processId": 11708,
+            "exited": true
+        },
+        {
+            "deviceId": "x4ojnrrk5xeqcmfu",
+            "name": "com.BeratYldr.Shooter",
+            "processId": 14389,
+            "exited": true
         }
     ],
     "m_Tags": {
